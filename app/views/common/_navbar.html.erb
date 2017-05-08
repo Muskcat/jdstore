@@ -14,8 +14,8 @@
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
-          <%= link_to "#" do %>
-            🛒 <i class="fa fa-shopping-cart"> </i> ( <%= current_cart.products.count%> )
+          <%= link_to carts_path do %>
+            购物车 <i class="fa fa-shopping-cart"> </i> ( <%= current_cart.products.count%> )
             <% end %>
         </li>
         <li>
